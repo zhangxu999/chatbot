@@ -1,0 +1,28 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- bless
+- complain
+- english
+- finance
+- idiom
+- normal_chat
+- short_chat
+- wikipedia
+- affirm
+- deny
+- goodbye
+- greet
+- mood_unhappy
+- bot_challenge
+- mood_great
+actions:
+- actions.ActionRecall
+- utter_did_that_help
+- utter_goodbye
+- utter_cheer_up
+- utter_happy
+- utter_iamabot
+- utter_greet
+- action_recall

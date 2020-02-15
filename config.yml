@@ -1,0 +1,7 @@
+language: zh
+pipeline:
+- name: component.BoolSearch
+- name: component.IntentionRecognition
+- name: component.FindMostLikeQ
+policies:
+- name: MappingPolicy
